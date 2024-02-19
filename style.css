@@ -239,3 +239,66 @@ input[type="number"] {
 .adicionar-produto {
   padding-bottom: 180px;
 }
+
+@media only screen and (max-width: 767px) {
+
+  body {
+    padding: 10vw 5vw 5vh;
+    font-size: 14px;
+  }
+
+  .conteudo-principal {
+    padding: 2rem 2.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background: white;
+  }
+
+  .formulario {
+    align-items: center;
+  }
+
+  .campo-grupo {
+    align-items: center;
+  }
+
+  .produto-input {
+    width: 100%;
+  }
+
+  .titulo {
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .quantidade-input {
+    width: 100%;
+    margin-top: 0.5rem;
+  }
+
+  .botoes-wrapper {
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  .botao-form {
+    width: 100%;
+  }
+
+  .carrinho {
+    width: 100%;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  .divisoria {
+    width: 100%;
+  }
+
+  .adicionar-produto {
+    padding-bottom: 0;
+  }
+}
