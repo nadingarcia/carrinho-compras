@@ -41,6 +41,8 @@ function adicionar() {
     if (botao.classList.contains('botao-limpar')) {
         botao.classList.remove('botao-limpar');
         botao.classList.add('botao-adicionar');
+
+document.getElementById('quantidade').value = 1;
     } 
 }}
 
