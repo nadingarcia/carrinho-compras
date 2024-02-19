@@ -1,4 +1,4 @@
-let valorTotal = 1400;
+let valorTotal = 0;
 let botao = document.querySelector('.botao-limpar');
 
 function adicionar() {
