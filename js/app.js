@@ -37,6 +37,9 @@ function adicionar() {
     let textoValorFinal = document.getElementById('valor-total');
     textoValorFinal.innerHTML = valorTotal;
 
+document.getElementById('quantidade').value = 1;
+
+
     
     if (botao.classList.contains('botao-limpar')) {
         botao.classList.remove('botao-limpar');
